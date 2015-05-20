@@ -1,3 +1,85 @@
-body{
-	background-image: url(http://blogs-images.forbes.com/chrissmith/files/2015/02/daytona-e1424273533378-1940x1092.jpg);
+.IndexBody{
+	background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2013/03/21/56252/big_thumb_940f7cf1a344c23d435dd3b121d985fd.jpg);
+	background-size: 100%;
+}
+
+
+body{background-color:#2D2D2D }
+.loading {
+    width: 200px;
+    margin: 200px auto;
+    height: 200px;
+}
+
+.circle {
+    border-radius: 100%;
+    border-top: 5px solid rgb(69, 205, 237);
+	margin: auto;
+	transform-origin: 50%;
+position: relative;
+}
+
+.s_3 {
+    width: 200px;
+    height: 200px;
+	animation: rot_right 2s infinite linear;
+	-webkit-animation: rot_right 2s infinite linear;
+	transition:2s;
+	-webkit-transition:2s;
+}
+
+.s_2 {
+    width: 150px;
+    height: 150px;
+	margin-top: 10px;
+	animation: rot_left 2s infinite linear;
+	-webkit-animation: rot_left 2s infinite linear;
+	transition:2s;
+	-webkit-transition:2s;
+	margin-top:-190px;
+}
+
+.s_1 {
+    width: 100px;
+    height: 100px;
+	margin-top: 10px;
+	animation: rot_right 2s infinite linear;
+	-webkit-animation: rot_right 2s infinite linear;
+	transition:2s;
+	-webkit-transition:2s;
+	margin-top:-140px;
+}
+@keyframes rot_right{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+}@-webkit-keyframes rot_right{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+}@keyframes rot_left{
+  from{transform:rotate(360deg)}
+  to{transform:rotate(0deg)}
+}@-webkit-keyframes rot_left{
+ from{transform:rotate(360deg)}
+  to{transform:rotate(0deg)}
+}
+.s_title {
+border: 0;
+color: white;
+font-family: arial;
+text-align: center;
+margin-top: -60px;
+	animation: blink 2s infinite linear;
+	-webkit-animation: blink 2s infinite linear;
+	transition:2s;
+	-webkit-transition:2s;
+	letter-spacing: 1px;
+}
+@keyframes blink{
+  0%{opacity:1}
+  50%{opacity:0.5}
+  100%{opacity:1}
+}@-webkit-keyframes blink{
+    0%{opacity:1}
+  50%{opacity:0.5}
+  100%{opacity:1}
 }
