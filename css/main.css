@@ -3,6 +3,185 @@
 	background-size: 100%;
 }
 
+.left-side{
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 550px;
+	height: 400px;
+	float: left;
+	background-color: white;
+	border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+
+.right-side{
+	margin-right: 25px;
+	margin-top: 25px;
+	width: 550px;
+	height: 400px;
+	float: right;
+	background-color: white;
+	border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+
+.about-head{
+	text-align: center;
+}
+.about-text{
+	text-align: center;
+	font-size: 19px;
+	font-weight: bolder;
+	margin-left: 5px;
+	margin-right: 5px;
+	opacity: inherit;
+}
+
+.tractor{
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 1200px;
+	height: 85px;
+}
+
+.links{
+	width: 1290px;
+	height: 120px;
+	background-size: 100%;
+	text-align: center;
+	border-radius: 5px soild orange;
+}
+
+.works{
+	width: 1290px;
+	height: 500px;
+	background-color: white;
+	opacity: 0.3;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+.links-contact{
+	width: 1290px;
+	height: 100px;
+	background-size: 100%;
+	text-align: center;
+	border-radius: 5px soild orange;
+}
+
+.AboutMe{
+	width: 1290 px;
+	height: 550px;
+	background-color: white;
+	opacity: 0.3;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+.address{
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+	color: black;
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.button1{
+	color: black;
+	border: 3px solid black;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+}
+
+.button2{
+	color: black;
+	border: 3px solid black;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+}
+
+.button3{
+	color: black;
+	border: 3px solid black;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+}
+
+.button1:hover{
+	color: white;
+	border: 4px solid white;
+	font-size: 40px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: black;
+	border-style: ridge;
+	opacity: 10%;
+}
+
+.button2:hover{
+	color: white;
+	border: 4px solid white;
+	font-size: 40px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: black;
+	border-style: ridge;
+	opacity: 10%;
+}
+
+.button3:hover{
+	color: white;
+	border: 4px solid white;
+	font-size: 40px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: black;
+	border-style: ridge;
+	opacity: 10%;
+}
+
+.ProjectBody{
+	background-image: url(http://www.apbnews.com/wp-content/uploads/2010/10/sunset-water-reflection-with-pier1.jpg);
+	background-size: 100%;
+}
+
+.ContactBody{
+	background-image: url(http://www.johnmaclean.com/data/photos/175_1img_1848_livebooks.jpg);
+	background-size: 100%;
+}
+
+.face{
+	width: 50px;
+	height: 50px;
+}
+
+.tweet{
+	width: 50px;
+	height: 50px;
+}
+
+.goog{
+	width: 60px;
+	height: 60px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
 
 body{background-color:#2D2D2D }
 .loading {

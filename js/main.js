@@ -1,7 +1,5 @@
-var $loadingScreen = $('.loading-screen'),
-    barHeight = 33;
+var motor = new Audio('/../LandingPage/audio/engine.mp3');
 
-$loadingScreen.css('marginTop',($('html').height() / 2) - ($loadingScreen.height() / 2));
-function load(){
-	
-}
+window.onload = function () {
+	motor.play();
+};
