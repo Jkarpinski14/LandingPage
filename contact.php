@@ -17,22 +17,22 @@
 		<address>
 			<!--<a href="mailto:jkarpinski14@gmail.com">Contact - Email here</a>.<br>-->
 			<h2>Send e-mail or suggestions to me:</h2>
-				<form action="MAILTO:jkarpinski14@gmail.com" method="post" enctype="text/plain">
+				<form action="mail.php" method="post" enctype="text/plain">
 					Name:<br>
-				<input type="text" name="name" value="Insert Name Here"><br>
+				<input type="text" name="name" value="" size="40"><br>
 					E-mail:<br>
-				<input type="text" name="mail" value="Insert Email Here"><br>
+				<input type="text" name="mail" value="" size="40"><br>
 					Comment:<br>
-				<input type="text" name="comment" value="" size="50"><br><br>
+				<input type="text" name="comment" value="" size="40"><br><br>
 				<input type="submit" value="Send">
 				<input type="reset" value="Reset">
 				</form>
 			<br>
-			Visit us at:<br>
+			Visit at:<br>
 			2925 E. Sierra Madre Blvd. Pasadena, CA 91106
 			<br>
 			<br>
-			Call us at:<br>
+			Call at:<br>
 			(626) 482 - 1103
 			<br>
 			<br>

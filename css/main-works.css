@@ -1,0 +1,129 @@
+.ProjectBody{
+	background-image: url(http://www.apbnews.com/wp-content/uploads/2010/10/sunset-water-reflection-with-pier1.jpg);
+	background-size: 100%;
+}
+
+.links{
+	width: 1290px;
+	height: 150px;
+	background-size: 100%;
+	text-align: center;
+	border-radius: 5px soild orange;
+}
+
+.works{
+	width: 1070px;
+	height: 673px;
+	background-color: white;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 105px;
+}
+
+.button1{
+	color: black;
+	border: 3px solid black;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+}
+
+.button2{
+	color: black;
+	border: 3px solid black;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+}
+
+.button3{
+	color: black;
+	border: 3px solid black;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+}
+
+.button1:hover{
+	color: white;
+	border: 4px solid white;
+	font-size: 40px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: black;
+	border-style: ridge;
+	opacity: 10%;
+}
+
+.button2:hover{
+	color: white;
+	border: 4px solid white;
+	font-size: 40px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: black;
+	border-style: ridge;
+	opacity: 10%;
+}
+
+.button3:hover{
+	color: white;
+	border: 4px solid white;
+	font-size: 40px;
+	font-style: oblique;
+	text-decoration: none;
+	background-color: black;
+	border-style: ridge;
+	opacity: 10%;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+@media (min-device-width: 375px) and (max-device-width: 667px){
+
+.ProjectBody{
+	background-image: url(http://hd.wallpaperswide.com/thumbs/blue_haxagons_pattern-t2.jpg);
+	background-size: 100%;
+	height: 667px;
+	width: 400px;
+	background-color: black;
+}
+
+.links{
+	margin-left: 0px;
+	width: 100%;
+}
+
+.works{
+	margin-left: 3px;
+	height: 390px;
+	width: 360px;
+	margin-left: 7px;
+}
+
+#carousel-example-generic{
+	height: 390px;
+	width: 355px;
+}
+
+.item{
+	height: 390px;
+}
+
+.button2{
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.button3{
+	margin-right: 0px;
+}
+
+}
